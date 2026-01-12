@@ -283,11 +283,11 @@
             <div class="is-size-5 publication-authors">
               <!-- TODO: Replace with your paper authors and their personal links -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Smail Ait Bouhsain</a>,</span>
+                <a href="https://smail8.github.io" target="_blank">Smail Ait Bouhsain</a>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Rachid Alami</a>,</span>
+                  <a href="https://www.laas.fr/en/homepages/rachid/" target="_blank">Rachid Alami</a>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Thierry Siméon</a>
+                    <a href="https://www.laas.fr/fr/annuaire/29" target="_blank">Thierry Siméon</a>
                   </span>
                   </div>
 
@@ -311,10 +311,10 @@
 
                     <!-- TODO: Add your supplementary material PDF or remove this section -->
                     <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      <a href="https://www.youtube.com/watch?v=lUs3DGHrSDE" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
+                        <i class="fas fa-photo-video"></i>
                       </span>
                       <span>Supplementary</span>
                     </a>
@@ -333,12 +333,12 @@
 
                 <!-- TODO: Update with your arXiv paper ID -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  <a href="https://laas.hal.science/hal-03808885v2/document" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                    <i class="ai ai-arxiv"></i>
+                    <i class="ai ai-hal"></i>
                   </span>
-                  <span>arXiv</span>
+                  <span>HAL</span>
                 </a>
               </span>
             </div>
@@ -355,10 +355,10 @@
   <div class="container is-max-desktop">
     <div class="hero-body">
       <!-- TODO: Replace with your teaser video -->
-      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/lUs3DGHrSDE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <iframe width="100%" height="576px" src="https://www.youtube.com/embed/lUs3DGHrSDE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       <!-- TODO: Replace with your video description -->
       <h2 class="subtitle has-text-centered">
-        Given the current state of a 3D environment, a high-level action, and an object to manipulate, our method predicts the geometric feasibility of the action. These predictions are then used as a heuristic to guide task and motion planning, by prioritizing the most promising actions first. This approach significantly reduces the time spent on geometric planning, enabling the robot to solve manipulation tasks more efficiently in 3D environments.
+        Given the state of a 3D environment, a high-level action, and an object to manipulate, our method predicts the geometric feasibility of the action. These predictions are then used as a heuristic to guide task and motion planning, by prioritizing the most promising actions first. This approach significantly reduces the time spent on geometric planning, enabling the robot to solve manipulation tasks more efficiently in 3D environments.
       </h2>
     </div>
   </div>
@@ -383,107 +383,131 @@
 </section>
 <!-- End paper abstract -->
 
-
-<!-- Image carousel -->
-<section class="hero is-small">
+<!-- Neural Network Image -->
+<section class="section hero is-small">
   <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Proposed Model</h2>
+        <figure class="image">
+          <!-- TODO: Replace with the actual image path -->
+          <img src="static/images/model.png" alt="Diagram of the proposed neural network">
+        </figure>
+        <p class="subtitle">
+          A visualization of the proposed neural network architecture used for action feasibility prediction.
+        </p>
       </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
     </div>
   </div>
-</div>
-</div>
 </section>
-<!-- End image carousel -->
+<!-- End Neural Network Image -->
 
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
+<!-- Benchmarks Section -->
+<section class="section hero is-light">
   <div class="hero-body">
     <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- TODO: Replace with your YouTube video ID -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
+      <h2 class="title is-3 has-text-centered">Benchmarks</h2>
+      <div class="columns is-centered">
+        <div class="column is-half has-text-centered">
+          <figure class="image"></figure>
+            <!-- TODO: Replace with the actual image path -->
+            <img src="static/images/reorder.png" alt="Benchmark 1">
+          </figure>
+            <p class="subtitle"><strong>Reorder problem:</strong> Objects initially placed on a two-shelf cupboard must be moved to another cupboard in a different order, testing the algorithm's ability to handle grasp choices and infeasible placements under shelves.</p>
+        </div>
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-half has-text-centered">
+          <figure class="image"></figure>
+            <!-- TODO: Replace with the actual image path -->
+            <img src="static/images/unpack.png" alt="Benchmark 2">
+          </figure>
+            <p class="subtitle"><strong>Unpack problem:</strong> Objects initially placed on a tray-like surface must be unpacked and ordered into a cupboard. The challenge lies in selecting feasible grasps due to the proximity of objects and the restricted goal placements under a shelf, which disallow top grasps.</p>
+        </div>
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-half has-text-centered">
+          <figure class="image"></figure>
+            <!-- TODO: Replace with the actual image path -->
+            <img src="static/images/swap.png" alt="Benchmark 3">
+          </figure>
+          <p class="subtitle"><strong>Swap problem:</strong> A set of objects are initially placed either on the table or on higher support surfaces, and the goal is to swap their poses. The challenge arises from the fact that the goal poses of objects are already occupied, requiring the use of intermediary placements to achieve the desired configuration.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- End youtube video -->
+<!-- End Benchmarks Section -->
 
-
-<!-- Video carousel -->
-<section class="hero is-small">
+<!-- Results Section -->
+<section class="section hero is-small">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
-          </video>
+      <h2 class="title is-3 has-text-centered">Results</h2>
+      <div class="columns is-centered">
+        <!-- First image -->
+        <div class="column is-half has-text-centered">
+          <figure class="image">
+            <img src="static/images/times_2obj.png" alt="Result 1">
+          </figure>
+          <p class="subtitle">Detailed planning time of our algorithm on the <strong>2-object</strong> version of the problems with and without using AFP-Net, averaged over 10 runs.</p>
         </div>
-        <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
-          </video>
+        <!-- Second image -->
+        <div class="column is-half has-text-centered">
+          <figure class="image">
+            <img src="static/images/times_5obj.png" alt="Result 2">
+          </figure>
+          <p class="subtitle">Detailed planning time of our algorithm on the <strong>5-object</strong> version of the problems with and without using AFP-Net, averaged over 10 runs.</p>
         </div>
-        <div class="item item-video3">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
-          </video>
+      </div>
+      <!-- Add space between the first two figures and the last -->
+      <div class="columns is-centered" style="margin-top: 2rem;"></div>
+      <div class="columns is-centered">
+        <!-- Third image -->
+        <div class="column has-text-centered">
+          <figure class="image">
+            <img src="static/images/results.png" alt="Result 3">
+          </figure>
+          <p class="subtitle">Comparison of the performance of the TAMP algorithm with and without using AFP-Net on the 5-object version of the three problem domains. Results are averaged over 10 runs.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- End video carousel -->
+<!-- End Results Section -->
 
-
-
-
+<!-- Visualizations Section -->
+<section class="section hero is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered">Visualizations</h2>
+      <div class="columns is-centered">
+        <!-- First GIF -->
+        <div class="column is-one-third has-text-centered">
+          <figure class="image">
+            <img src="static/images/reorder5.gif" alt="Visualization 1">
+          </figure>
+          <p class="subtitle">Execution of the reordering task with 5 objects.</p>
+        </div>
+        <!-- Second GIF -->
+        <div class="column is-one-third has-text-centered">
+          <figure class="image">
+            <img src="static/images/unpack5.gif" alt="Visualization 2">
+          </figure>
+          <p class="subtitle">Execution of the unpacking task with 5 objects.</p>
+        </div>
+        <!-- Third GIF -->
+        <div class="column is-one-third has-text-centered">
+          <figure class="image">
+            <img src="static/images/swap5.gif" alt="Visualization 3">
+          </figure>
+          <p class="subtitle">Execution of the swapping task with 5 objects.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Visualizations Section -->
 
 
 <!-- Paper poster -->
@@ -493,8 +517,7 @@
       <h2 class="title">Poster</h2>
 
       <!-- TODO: Replace with your poster PDF -->
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
+      <iframe  src="/static/pdfs/poster.pdf" width="100%" height="550"></iframe>
         
       </div>
     </div>
@@ -513,13 +536,15 @@
           <span class="copy-text">Copy</span>
         </button>
       </div>
-      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
-  title={Your Paper Title Here},
-  author={First Author and Second Author and Third Author},
-  journal={Conference/Journal Name},
-  year={2024},
-  url={https://your-domain.com/your-project-page}
-}</code></pre>
+      <pre id="bibtex-code"><code>@inproceedings{ait2023learning,
+  title={Learning to predict action feasibility for task and motion planning in 3d environments},
+  author={Ait Bouhsain, Smail and Alami, Rachid and Simeon, Thierry},
+  booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={3736--3742},
+  year={2023},
+  organization={IEEE}
+}
+</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
@@ -545,8 +570,21 @@
 
 <!-- Statcounter tracking code -->
   
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
-
+<!-- Default Statcounter code for AFPNet (ICRA 2023)
+https://smail8.github.io/action-feasibility-prediction/ -->
+<script type="text/javascript">
+var sc_project=13197490; 
+var sc_invisible=1; 
+var sc_security="dc5a2c10"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js" async></script>
+<noscript><div class="statcounter"><a title="Web Analytics Made Easy -
+Statcounter" href="https://statcounter.com/" target="_blank"><img
+class="statcounter" src="https://c.statcounter.com/13197490/0/dc5a2c10/1/"
+alt="Web Analytics Made Easy - Statcounter"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
     <!-- End of Statcounter Code -->
 
   </body>
