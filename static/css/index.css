@@ -751,3 +751,16 @@ a:focus {
 
 
 
+/* make all links dark blue */
+a, a:visited {
+  color: #0b3d911 !important;
+}
+
+a:hover, a:focus {
+  color: #062a61 !important;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #021427 !important;
+}
