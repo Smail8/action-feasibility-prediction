@@ -25,9 +25,9 @@
   <!-- TODO: Same as description above -->
   <meta property="og:description" content="We propose an efficient method for 3D scene representation, along with a deep neural network capable of predicting the probability of feasibility of an action in task and motion planning. We demonstrate the performance gain of using our approach on multiple problem domains, significantly reducing geometric planning time.">
   <!-- TODO: Replace with your actual website URL -->
-  <meta property="og:url" content="">
+  <meta property="og:url" content="https://smail8.github.io/action-feasibility-prediction/">
   <!-- TODO: Create a 1200x630px preview image and update path -->
-  <meta property="og:image" content="https://github.com/Smail8/afpnet.github.io/static/images/panda_icon.png">
+  <meta property="og:image" content="https://github.com/Smail8/action-feasibility-prediction/tree/master/static/images/poster.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Learning to Predict Action Feasibility for Task and Motion Planning in 3D Environments - Research Preview">
@@ -36,6 +36,8 @@
   <meta property="article:section" content="Research">
   <meta property="article:tag" content="task and motion planning">
   <meta property="article:tag" content="action feasibility prediction">
+  <meta property="article:tag" content="robotics">
+  <meta property="article:tag" content="deep learning">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
@@ -48,7 +50,7 @@
   <!-- TODO: Same as description above -->
   <meta name="twitter:description" content="We propose an efficient method for 3D scene representation, along with a deep neural network capable of predicting the probability of feasibility of an action in task and motion planning. We demonstrate the performance gain of using our approach on multiple problem domains, significantly reducing geometric planning time.">
   <!-- TODO: Same as social preview image above -->
-  <meta name="twitter:image" content="https://github.com/Smail8/afpnet.github.io/static/images/panda_icon.png">
+  <meta name="twitter:image" content="https://github.com/Smail8/action-feasibility-prediction/tree/master/static/images/poster.png">
   <meta name="twitter:image:alt" content="Learning to Predict Action Feasibility for Task and Motion Planning in 3D Environments - Research Preview">
 
   <!-- Academic/Research Specific -->
@@ -58,7 +60,7 @@
   <meta name="citation_author" content="Siméon, Thierry">
   <meta name="citation_publication_date" content="2023">
   <meta name="citation_conference_title" content="IEEE International Conference on Robotics and Automation (ICRA)">
-  <meta name="citation_pdf_url" content="https://github.com/Smail8/afpnet.github.io/static/pdfs/paper.pdf">
+  <meta name="citation_pdf_url" content="https://github.com/Smail8/action-feasibility-prediction/tree/master/static/pdfs/paper.pdf">
   
   <!-- Additional SEO -->
   <meta name="theme-color" content="#2563eb">
@@ -148,8 +150,8 @@
       "@type": "Organization",
       "name": "IEEE International Conference on Robotics and Automation (ICRA)"
     },
-    "url": "https://afpnet.github.io",
-    "image": "https://afpnet.github.io/static/images/social_preview.png",
+    "url": "https://smail8.github.io/action-feasibility-prediction/",
+    "image": "https://github.com/Smail8/action-feasibility-prediction/tree/master/static/images/poster.png",
     "keywords": [
       "task and motion planning",
       "TAMP",
@@ -178,7 +180,7 @@
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "mainEntity": {
       "@type": "WebPage",
-      "@id": "https://afpnet.github.io"
+      "@id": "https://smail8.github.io/action-feasibility-prediction/"
     },
     "about": [
       {
@@ -208,7 +210,7 @@
     "@type": "Organization",
     "name": "LAAS-CNRS",
     "url": "https://www.laas.fr",
-    "logo": "https://github.com/Smail8/afpnet.github.io/static/images/laas_logo.png",
+    "logo": "https://github.com/Smail8/action-feasibility-prediction/tree/master/static/images/laas_logo.png",
     "sameAs": [
       "https://twitter.com/LaasCNRS",
       "https://github.com/Smail8"
@@ -240,19 +242,16 @@
       </div>
       <div class="works-list">
         <!-- TODO: Replace with your lab's related works -->
-        <a href="" class="work-item" target="_blank">
+        <a href="https://openreview.net/pdf?id=ajxAJ8GUX4" class="work-item" target="_blank">
           <div class="work-info">
-            <!-- TODO: Replace with actual paper title -->
-            <h5>Simultaneous Action and Grasp Feasibility Prediction for Task and Motion Planning through Multi-Task Learning</h5>
-            <!-- TODO: Replace with brief description -->
-            <p>We propose AGFP-Net, a multi-task neural network that predicts action feasibility and grasp type feasibility, significantly improving task and motion planning (TAMP) by reducing geometric planning time and solving more complex problems.</p>
-            <!-- TODO: Replace with venue and year -->
-            <span class="work-venue">2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2023)</span>
+            <h5>Learning Geometric Reasoning Networks for Robot Task and Motion Planning</h5>
+            <p>We present Geometric Reasoning Networks (GRN), a graph neural network-based model for predicting action and grasp feasibility in Task and Motion Planning (TAMP). GRN reduces reliance on geometric planners by incorporating interpretability mechanisms such as inverse kinematics feasibility prediction and grasp obstruction estimation, enabling efficient and explainable planning in complex 3D environments.</p>
+            <span class="work-venue">The Thirteenth International Conference on Learning Representations (ICLR 2025)</span>
           </div>
           <i class="fas fa-external-link-alt"></i>
         </a>
         <!-- TODO: Add more related works or remove extra items -->
-        <a href="" class="work-item" target="_blank">
+        <a href="https://ieeexplore.ieee.org/abstract/document/10802307" class="work-item" target="_blank">
           <div class="work-info">
             <h5>Extending Task and Motion Planning with Feasibility Prediction: Towards Multi-Robot Manipulation Planning of Realistic Objects</h5>
             <p>We introduce a multi-robot TAMP algorithm that leverages feasibility prediction to address complex manipulation tasks. Our approach extends previous methods by enabling the handling of mesh-shaped objects and collaborative multi-robot settings, demonstrating significant improvements over baseline methods.</p>
@@ -260,11 +259,14 @@
           </div>
           <i class="fas fa-external-link-alt"></i>
         </a>
-        <a href="https://arxiv.org/abs/PAPER_ID_3" class="work-item" target="_blank">
+        <a href="https://ieeexplore.ieee.org/abstract/document/10341257" class="work-item" target="_blank">
           <div class="work-info">
-            <h5>Learning Geometric Reasoning Networks for Robot Task and Motion Planning</h5>
-            <p>We present Geometric Reasoning Networks (GRN), a graph neural network-based model for predicting action and grasp feasibility in Task and Motion Planning (TAMP). GRN reduces reliance on geometric planners by incorporating interpretability mechanisms such as inverse kinematics feasibility prediction and grasp obstruction estimation, enabling efficient and explainable planning in complex 3D environments.</p>
-            <span class="work-venue">The Thirteenth International Conference on Learning Representations (ICLR 2025)</span>
+            <!-- TODO: Replace with actual paper title -->
+            <h5>Simultaneous Action and Grasp Feasibility Prediction for Task and Motion Planning through Multi-Task Learning</h5>
+            <!-- TODO: Replace with brief description -->
+            <p>We propose AGFP-Net, a multi-task neural network that predicts action feasibility and grasp type feasibility, significantly improving task and motion planning (TAMP) by reducing geometric planning time and solving more complex problems.</p>
+            <!-- TODO: Replace with venue and year -->
+            <span class="work-venue">2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2023)</span>
           </div>
           <i class="fas fa-external-link-alt"></i>
         </a>
@@ -311,7 +313,7 @@
 
                     <!-- TODO: Add your supplementary material PDF or remove this section -->
                     <span class="link-block">
-                      <a href="https://drive.google.com/file/d/1ybnuKUjecRf6z9gSl5QmZ0B9ho9FH43I/view?usp=sharing" target="_blank"
+                      <a href="static/images/poster.png" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
                         <i class="fas fa-photo-video"></i>
@@ -322,7 +324,7 @@
 
                   <!-- TODO: Replace with your GitHub repository URL -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/smail8/action-grasp-feasibility-prediction" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
