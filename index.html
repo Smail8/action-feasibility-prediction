@@ -319,6 +319,7 @@
       <div class="container is-max-desktop">
         <div class="hero-body">
           <iframe width="100%" height="500px" src="https://www.youtube.com/embed/lUs3DGHrSDE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <div style="margin-top: 20px;"></div> <!-- Added vertical space -->
           <h2 class="subtitle has-text-centered">
             Given the state of a 3D environment, a high-level action, and an object to manipulate, our method predicts the geometric feasibility of the action. These predictions are then used as a heuristic to guide task and motion planning, by prioritizing the most promising actions first. This approach significantly reduces the time spent on geometric planning, enabling the robot to solve manipulation tasks more efficiently in 3D environments.
           </h2>
@@ -353,6 +354,7 @@
             <figure class="image">
               <img src="static/images/model.png" alt="Diagram of the proposed neural network AFPNet">
             </figure>
+            <div style="margin-top: 20px;"></div> <!-- Added vertical space -->
             <p class="subtitle">
               A visualization of the proposed neural network architecture used for action feasibility prediction.
             </p>
@@ -372,7 +374,8 @@
               <figure class="image"></figure>
                 <img src="static/images/reorder.png" alt="Reorder Benchmark">
               </figure>
-                <p class="subtitle"><strong>Reorder problem:</strong> Objects initially placed on a two-shelf cupboard must be moved to another cupboard in a different order, testing the algorithm's ability to handle grasp choices and infeasible placements under shelves.</p>
+              <div style="margin-top: 20px;"></div> <!-- Added vertical space -->
+              <p class="subtitle"><strong>Reorder problem:</strong> Objects initially placed on a two-shelf cupboard must be moved to another cupboard in a different order, testing the algorithm's ability to handle grasp choices and infeasible placements under shelves.</p>
             </div>
           </div>
           <div class="columns is-centered">
@@ -380,7 +383,8 @@
               <figure class="image"></figure>
                 <img src="static/images/unpack.png" alt="Unpack Benchmark">
               </figure>
-                <p class="subtitle"><strong>Unpack problem:</strong> Objects initially placed on a tray-like surface must be unpacked and ordered into a cupboard. The challenge lies in selecting feasible grasps due to the proximity of objects and the restricted goal placements under a shelf, which disallow top grasps.</p>
+              <div style="margin-top: 20px;"></div> <!-- Added vertical space -->
+              <p class="subtitle"><strong>Unpack problem:</strong> Objects initially placed on a tray-like surface must be unpacked and ordered into a cupboard. The challenge lies in selecting feasible grasps due to the proximity of objects and the restricted goal placements under a shelf, which disallow top grasps.</p>
             </div>
           </div>
           <div class="columns is-centered">
@@ -388,6 +392,7 @@
               <figure class="image"></figure>
                 <img src="static/images/swap.png" alt="Swap Benchmark">
               </figure>
+              <div style="margin-top: 20px;"></div> <!-- Added vertical space -->
               <p class="subtitle"><strong>Swap problem:</strong> A set of objects are initially placed either on the table or on higher support surfaces, and the goal is to swap their poses. The challenge arises from the fact that the goal poses of objects are already occupied, requiring the use of intermediary placements to achieve the desired configuration.</p>
             </div>
           </div>
@@ -407,6 +412,7 @@
               <figure class="image">
                 <img src="static/images/times_2obj.png" alt="Results on 2-object problems">
               </figure>
+              <div style="margin-top: 20px;"></div> <!-- Added vertical space -->
               <p class="subtitle">Detailed planning time of our algorithm on the <strong>2-object</strong> version of the problems with and without using AFP-Net, averaged over 10 runs.</p>
             </div>
             <!-- Second image -->
@@ -414,6 +420,7 @@
               <figure class="image">
                 <img src="static/images/times_5obj.png" alt="Results on 5-object problems">
               </figure>
+              <div style="margin-top: 20px;"></div> <!-- Added vertical space -->
               <p class="subtitle">Detailed planning time of our algorithm on the <strong>5-object</strong> version of the problems with and without using AFP-Net, averaged over 10 runs.</p>
             </div>
           </div>
@@ -425,6 +432,7 @@
               <figure class="image">
                 <img src="static/images/results.png" alt="Overall Results Comparison">
               </figure>
+              <div style="margin-top: 20px;"></div> <!-- Added vertical space -->
               <p class="subtitle">Comparison of the performance of the TAMP algorithm with and without using AFP-Net on the 5-object version of the three problem domains. Results are averaged over 10 runs.</p>
             </div>
           </div>
@@ -444,6 +452,7 @@
               <figure class="image">
                 <img src="static/images/reorder5.gif" alt="Visualization of the solution to the reorder task">
               </figure>
+              <div style="margin-top: 20px;"></div> <!-- Added vertical space -->
               <p class="subtitle">Execution of the reordering task with 5 objects.</p>
             </div>
             <!-- Second GIF -->
@@ -451,6 +460,7 @@
               <figure class="image">
                 <img src="static/images/unpack5.gif" alt="Visualization of the solution to the unpack task">
               </figure>
+              <div style="margin-top: 20px;"></div> <!-- Added vertical space -->
               <p class="subtitle">Execution of the unpacking task with 5 objects.</p>
             </div>
             <!-- Third GIF -->
@@ -458,6 +468,7 @@
               <figure class="image">
                 <img src="static/images/swap5.gif" alt="Visualization of the solution to the swapping task">
               </figure>
+              <div style="margin-top: 20px;"></div> <!-- Added vertical space -->
               <p class="subtitle">Execution of the swapping task with 5 objects.</p>
             </div>
           </div>
